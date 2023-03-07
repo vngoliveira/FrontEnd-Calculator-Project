@@ -1,0 +1,56 @@
+input {
+    text-align: center;
+    margin: 5px;
+    background-color:burlywood;
+    font-weight: bolder;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    place-items: center;
+}
+
+.input {
+    display: grid;
+    place-items: center;
+    margin: 10px;
+}
+
+.numbers {
+    display: grid;
+    grid-template-columns: 55px 55px 55px 55px ;
+    grid-template-rows: 55px 55px 55px 55px 55px;
+    justify-content: center;
+    justify-items: center;
+   
+}
+
+button {
+    width: 40px;
+    height: 30px;
+    text-align: center;
+    background-color: teal;
+    color: white;
+    border-radius: 3px;
+}
+
+#delete {
+    background-color: tomato;
+}
+
+#deleteAll {
+    background-color:crimson;
+}
+
+#equals {
+    background-color: lightslategray;
+}
+
+body {
+    font-family:'Courier New', Courier, monospace;
+    background-color:silver;
+}

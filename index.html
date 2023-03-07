@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Calculator</h1>
+    <div class="container">
+        <div class="input">
+            <input type="text" id="" readonly="true" placeholder="0">
+        </div>
+        <div class="numbers">
+            <button onclick="deleteLastNumber();" id="delete">[x]</button>
+            <button class="insert" name="symbol" value="+">+</button>
+            <button class="insert" name="symbol" value="-">-</button>
+            <button class="insert" name="symbol" value="*">*</button>
+            <button class="insert" value="1">1</button>
+            <button class="insert" value="2">2</button>
+            <button class="insert" value="3">3</button>
+            <button class="insert" name="symbol" value="/">/</button>
+            <button class="insert" value="4">4</button>
+            <button class="insert" value="5">5</button>
+            <button class="insert" value="6">6</button>
+            <button class="insert" name="symbol" value="(">(</button>
+            <button class="insert" value="7">7</button>
+            <button class="insert" value="8">8</button>
+            <button class="insert" value="9">9</button>
+            <button class="insert" name="symbol" value=")">)</button>
+            <button onclick="deleteAll();" id="deleteAll">[C]</button>
+            <button class="insert" value="0">0</button>
+            <button class="insert" name="symbol" value=".">.</button>
+            <button onclick="calculator();" id="equals">=</button>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
